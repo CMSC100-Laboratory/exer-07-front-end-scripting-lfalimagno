@@ -1,51 +1,57 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
-
+    <!-- doc type  -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favorites</title>
+        <!-- title -->
 </head>
 
 <body>
 
     <div class="sidebar">
         <h2>🍔 Favorite Food</h2>
-        <h2>🎵 Favorite Songs</h2>
-        <h2>📜 Favorite Quotes</h2>
-
+        <!-- sidebar with favorite food title and form -->
         <form id="foodForm">
             <div>
                 <label>Name of Food:</label>
                 <input type="text" id="foodname" placeholder="Food Name">
+                <!-- name of foood -->
             </div>
 
             <div>
                 <label>Description:</label>
                 <input type="text" id="fooddesc" placeholder="Short Description">
+                <!-- description of food -->
             </div>
 
             <div>
                 <label>Image URL:</label>
                 <input type="text" id="foodimg" placeholder="Image URL">
+                <!-- image url -->
             </div>
 
             <div>
                 <label>Rank:</label>
                 <input type="number" min="1" id="foodrank" placeholder="Rank">
+                <!-- rankf of food -->
             </div>
 
             <button type="submit">Add Food</button>
+            <!-- add button -->
         </form>
     </div>
 
     <div class="main">
         <h1>Top Foods</h1>
         <div id="foodContainer"></div>
+        <!-- the foods part ranked -->
     </div>
 
     <div class="right-sidebar">
         <h3>ADS</h3>
+        <!-- ads  -->
         <div class="ad-box"><img
                 src="https://www.hoka.com/on/demandware.static/-/Sites/default/dwd3a0926d/hoka-au/slots/category/HOKA_MafateSpeed4_Web_Mobile_CategoryBanner_01_800x600.jpg"
                 alt="ad"></div>
@@ -55,6 +61,7 @@
                 src="https://gadgetsmagazine.com.ph/wp-content/uploads/2022/02/Challenge-your-limits-and-take-on-the-outdoors-with-the-all-new-Garmin-O....jpg"
                 alt="ad"></div>
     </div>
+    <!-- design and script -->
 
     <script src="http://localhost:3000/form.js"></script>
     <link rel="stylesheet" href="http://localhost:3000/flex.css">
